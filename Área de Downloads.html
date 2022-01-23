@@ -1,51 +1,39 @@
 <!DOCTYPE html> <html lang="pt-br"> <head> <meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Área de Downloads</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet"> <style>body, ul { margin: 0px; padding: 0px; } a { color: black; text-decoration: none; font-family: 'Josefin Sans', sans-serif; } a:hover { background: ; } #logo { font-size: 1.5rem; font-weight: bold; }
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet"> <style>body, ul { margin: 0px; padding: 0px; } a { color: white; text-decoration: none; font-family: 'Josefin Sans', sans-serif; } a:hover { background: #121212; } #logo { font-size: 1.5rem; font-weight: bold; }
 #ps3{color:#161885; font-size:40px;font-family: 'Josefin Sans', sans-serif;text-align:center; animation:ps3 2s ease-in-out;}
-@keyframes ps3{
-				0%{color:#ffffff; letter-spacing:600px}
-				20%{color:#fff;}
-				100%{letter-spacing:0px;}
-}
-@keyframes ps2{
-				0%{color:#ffffff; letter-spacing:600px}
-				20%{color:#fff;}
-				100%{letter-spacing:0px;}
-}
-@keyframes ps1{
-				0%{color:#ffffff; letter-spacing:600px}
-				20%{color:#fff;}
-				100%{letter-spacing:0px;}
-}
+
 #mult{text-align:center;}
-#mult p{text-align:center;}
+#mult p{text-align:;}
 #mult1 img{width:350px;}
 #mult2 img{width:700px;}
 
 @media (max-width: 600px) {
-	#mult2 img{width:400px;}
+	#mult2 img{width:100%;}
 }
 
-h3{text-align:center;font-family: 'Josefin Sans', sans-serif;}
-h2{animation:ps2 1.5s ease-in-out;text-align:center; font-family: 'Josefin Sans', sans-serif;}
+h3{text-align:;font-family: 'Josefin Sans', sans-serif;}
+h2{animation:ps2 1.5s ease-in-out;text-align:; font-family: 'Josefin Sans', sans-serif;}
 #hfw{text-align:center;}
 #hfw button{font-family: 'Josefin Sans', sans-serif;border:1px solid black; border-radius:10px; background:#40cbff; padding:10px; font-size:16px; animation:botao 3s ease-in-out infinite;}
 #hfw button:hover{border-radius:30px;}
 
 @keyframes botao{
-			0%{background:#15a1ff;}
-			50%{background:#aafff4;}
-			100%{background:#15a1ff;}
+			0%{background:#02001d;}
+			50%{background:#080071}
+			100%{background:#030028;}
 }
 
-p{animation:ps1 1s ease-in-out;padding:15px;font-family: 'Josefin Sans', sans-serif; text-align: center;}
+p{animation:ps1 1s ease-in-out;padding:15px;font-family: 'Josefin Sans', sans-serif; text-align: ;}
 #logo img{width:180px;}
-#header { box-sizing: border-box; height: 90px; padding: 1rem; display: flex; align-items: center; justify-content: space-between; background: #2bd5ff; } #menu { display: flex; list-style: none; gap: 0.5rem; } #menu a { display: block; padding: 0.5rem; } #btn-mobile { display: none; } @media (max-width: 600px) { #menu { display: block; position: absolute; width: 100%; top: 90px; right: 0px; background: #00eaff; transition: 0.6s; z-index: 1000; height: 0px; visibility: hidden; overflow-y: hidden; } #nav.active #menu { height: calc(100vh - 90px); visibility: visible; overflow-y: auto; } #menu a {text-align:center; font-size:20px; padding: 4rem 0; margin: 0 1rem; border-bottom: 2px solid #001247; } #btn-mobile { display: flex; padding: 0.5rem 1rem; font-size: 1rem; border: none; background: none; cursor: pointer; gap: 0.5rem; } #hamburger { border-top: 2px solid; width: 20px; } #hamburger::after, #hamburger::before { content: ''; display: block; width: 20px; height: 2px; background: currentColor; margin-top: 5px; transition: .2s; position: relative; } #nav.active #hamburger { border-top-color: transparent; } #nav.active #hamburger::before { color:red;transform: rotate(1350000000000050deg); } #nav.active #hamburger::after { color:red;transform: rotate(-1350000000000045deg); top: -7px; } }</style> </head> <body> <header id="header">
+#header { box-sizing: border-box; height: 90px; padding: 1rem; display: flex; align-items: center; justify-content: space-between; background: #000; } #menu { display: flex; list-style: none; gap: 0.5rem; } #menu a { display: block; padding: 0.5rem; } #btn-mobile { display: none; } 
+
+@media (max-width: 600px) { #menu { display: block; position: absolute; width: 100%; top: 90px; right: 0px; background: #000; transition: 0.6s; z-index: 1000; height: 0px; visibility: hidden; overflow-y: hidden; } #nav.active #menu { height: calc(100vh - 90px); visibility: visible; overflow-y: auto; } #menu a {text-align:center; font-size:20px; padding: 4rem 0; margin: 0 1rem; border-bottom: 2px solid #fff; } #btn-mobile { display: flex; padding: 0.5rem 1rem; font-size: 1rem; border: none; background: none; cursor: pointer; gap: 0.5rem; } #hamburger { border-top: 2px solid; width: 20px; } #hamburger::after, #hamburger::before { content: ''; display: block; width: 20px; height: 2px; background: currentColor; margin-top: 5px; transition: .2s; position: relative; } #nav.active #hamburger { border-top-color: transparent; } #nav.active #hamburger::before { color:red;transform: rotate(1350000000000050deg); } #nav.active #hamburger::after { color:red;transform: rotate(-1350000000000045deg); top: -7px; } }</style> </head> <body> <header id="header">
 	<div id="logo">
 			<img src="https://www.psx-place.com/data/attachments/16/16893-43297bc2b2ce56da693169bd750f497e.jpg" alt="logo">
 	</div>
-<nav id="nav"> <button style="font-family: 'Josefin Sans', sans-serif;" aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu <span id="hamburger"></span> </button> <ul id="menu" role="menu"> <li><a href="https://carloseduardo100.github.io/Archive/index.html">Sobre</a></li> <li><a href="https://carloseduardo100.github.io/Archive/tutorial.html">Tutorial</a></li> <li><a href="https://carloseduardo100.github.io/Archive/Área de Downloads.html">Área de Downloads</a></li> </ul> </nav> </header>
+<nav id="nav"> <button style="font-family: 'Josefin Sans', sans-serif; color:#fff;" aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu <span id="hamburger"></span> </button> <ul id="menu" role="menu"> <li><a href="https://carloseduardo100.github.io/Archive/index.html">Sobre</a></li> <li><a href="https://carloseduardo100.github.io/Archive/tutorial.html">Tutorial</a></li> <li><a href="https://carloseduardo100.github.io/Archive/Área de Downloads.html">Área de Downloads</a></li> </ul> </nav> </header>
 <h1 id="ps3">Área de Downloads</h1>
 <h2>• Firmware's </h2>
 <p>Firmware é o sistema operacional do PS3. Atualmente a versão mais recente é a 4.88<br><br>Você pode baixar a HFW (HYBRID FIRMWARE) se deseja desbloquear seu console. A HFW é a firmware modificada com a falha que permite o desbloqueio.</p>
@@ -66,13 +54,13 @@ p{animation:ps1 1s ease-in-out;padding:15px;font-family: 'Josefin Sans', sans-se
 <hr><br>
 
 <h2 style="color:#fff;">• Homebrew's </h2>
-<p style="color:#fff;">Homebrew no PS3 é o nome que se da a aplicativos não oficiais que através do desbloqueio podem ser instalados no seu console e que dão diversas funcionalidades para ele. A baixo você confere alguns deles:</p>
+<p style="color:#fff; text-align:left;">Homebrew no PS3 é o nome que se da a aplicativos não oficiais que através do desbloqueio podem ser instalados no seu console e que dão diversas funcionalidades para ele. A baixo você confere alguns deles:</p>
 <br>
 <div id="mult">
 				<span id="mult1">
  <img src="https://wololo.net/wagic/wp-content/uploads/2015/05/multiman-720x340.png" alt="multman">
       </span>
-	<p style="color:#fff;">O Multiman é um administrador de arquivos e de jogos, tranferidor FTP, analisador de pacotes e etc. Através dele você consegue acessar os arquivos internos do ps3, emular/modificar opções de jogos, copiar jogos do DVD para memória interna, transferir arquivos por FTP e mais uma infinidade de coisas.</p>
+	<p style="color:#fff; text-align:left;">O Multiman é um administrador de arquivos e de jogos, tranferidor FTP, analisador de pacotes e etc. Através dele você consegue acessar os arquivos internos do ps3, emular/modificar opções de jogos, copiar jogos do DVD para memória interna, transferir arquivos por FTP e mais uma infinidade de coisas.</p>
 	<span id="mult2">
 	<img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeB7RVa_BMcstQrEpQYPX-MdbARJ7pqVwi4A&usqp=CAU" alt="">
 	<p style="font-size:12px; color:grey; text-align:left;">Gerenciador de arquivos do Multiman</p>
@@ -85,7 +73,7 @@ p{animation:ps1 1s ease-in-out;padding:15px;font-family: 'Josefin Sans', sans-se
 				<span id="mult1">
  <img src="https://2img.net/h/oi60.tinypic.com/a31341.png" alt="webman">
       </span>
-	<p style="color:#fff;">O Webman é um homebrew com várias funcionalidades. Ele atua como gerenciador de arquivos, podendo emular jogos, roms, etc; possui transferência FTP, controle de ventoinha, configurações e leitura de bancos de dados, controle remoto e muitas outras funcionalidades. Seu diferencial é que, diferente do Multiman, ele não precisa ser iniciado e funciona diretamente da XMB.</p>
+	<p style="color:#fff; text-align:left;">O Webman é um homebrew com várias funcionalidades. Ele atua como gerenciador de arquivos, podendo emular jogos, roms, etc; possui transferência FTP, controle de ventoinha, configurações e leitura de bancos de dados, controle remoto e muitas outras funcionalidades. Seu diferencial é que, diferente do Multiman, ele não precisa ser iniciado e funciona diretamente da XMB.</p>
 	<span id="mult2">
 					
 	<img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1KRyWTBBmQLVm2ioKBMgV-9wRcq1eD6mciA&usqp=CAU" alt="">
@@ -100,7 +88,7 @@ p{animation:ps1 1s ease-in-out;padding:15px;font-family: 'Josefin Sans', sans-se
 	<span id="mult1">
 <img src="https://store.brewology.com/images/homebrew/321.png" alt="Apollo">
 </span>
-<p style="color:#fff;">O Apollo Save Tools, é um homebrew que permite trabalhar com modificações em Saves de jogos. Ele pode mudar regiões de saves, extrair/compactar, adicionar troféus, adicionar cheats, retirar trava de usuário permitindo compartilhamento dos saves, criar falsa conta na PSN (oque facilita e muito na instalação das licenças) e muitas outras coisas. </p>
+<p style="color:#fff; text-align:left;">O Apollo Save Tools, é um homebrew que permite trabalhar com modificações em Saves de jogos. Ele pode mudar regiões de saves, extrair/compactar, adicionar troféus, adicionar cheats, retirar trava de usuário permitindo compartilhamento dos saves, criar falsa conta na PSN (oque facilita e muito na instalação das licenças) e muitas outras coisas. </p>
 <span id="mult2">
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaTD9KSKh5Gb1ek2ocqXAl_QxNVLhEIi3X1g&usqp=CAU" alt="Apollo">
 <p style="font-size:12px; color:grey; text-align:left;">Apollo Save Tools tem muitas funcionalidades e faciita os processos de licença no PS3</p>
@@ -113,7 +101,7 @@ p{animation:ps1 1s ease-in-out;padding:15px;font-family: 'Josefin Sans', sans-se
 	<span id="mult1">
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO68bRK8ByQ2d9AIMsr5YZ42ooshMr7_Adsw&usqp=CAU" alt="PKGI">
 </span>
-<p style="color:#fff;">O PKGI é uma ferramenta de instalação de jogos, com ele você tem uma biblioteca de jogos juntamente as licenças e com um click, você pode instalar qual desejar.</p>
+<p style="color:#fff; text-align:left;">O PKGI é uma ferramenta de instalação de jogos, com ele você tem uma biblioteca de jogos juntamente as licenças e com um click, você pode instalar qual desejar.</p>
 <span id="mult2">
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsvbDpkz6hxwYNTD2D5fjUwkCeW07MYpfLMg&usqp=CAU" alt="PKGI">
 <p style="font-size:12px; color:grey; text-align:left;">O PKGI tem uma lista de jogos de A à Z</p>
@@ -127,7 +115,7 @@ p{animation:ps1 1s ease-in-out;padding:15px;font-family: 'Josefin Sans', sans-se
 					<h2 style="color:#fff;">HenToolBox</h2>
 <img src="https://1.bp.blogspot.com/-rO9_-IZYCwY/XojYE5x6rPI/AAAAAAAAKEM/hrL7qA0s6agHyPAGfMcKOVgONcMxCRToQCLcBGAsYHQ/w260-h170-c/318.png" alt="tolbox">
 </span>
-<p style="color:#fff;">HenToolBox é uma "caixa de ferramentas" pra facilitar a vida dos usuários, basicamente engloba várias opções de reset, administração de arquivos, homebrew's, mais seu forte mesmo é a diversidade em modificações visuais, como temas,fontes,waves,icons,etc. Ele é usado diretamente da XMB, igual o Webman.</p>
+<p style="color:#fff; text-align:left;">HenToolBox é uma "caixa de ferramentas" para facilitar a vida dos usuários, basicamente engloba várias opções de reset, administração de arquivos, homebrew's, mais seu forte mesmo é a diversidade em modificações visuais, como temas,fontes,waves,icons,etc. Ele é usado diretamente da XMB, igual o Webman.</p>
 <span id="mult2">
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2zrtJu3c5mA3VpthmOkUhGo4zjjkLoBLnmg&usqp=CAU" alt="tolbox">
 <p style="font-size:12px; color:grey; text-align:left;">O HenToolBox é um compilado de opções e personalizações</p>
@@ -141,7 +129,7 @@ p{animation:ps1 1s ease-in-out;padding:15px;font-family: 'Josefin Sans', sans-se
 		<h2 style="color:#fff;">Liberador de Espaço no HD</h2><br>
 <img src="https://cdn-icons-png.flaticon.com/512/2004/2004670.png" alt="hd"><br>
 </span>
-<p style="color:#fff;">O sistema do PS3 por padrão separa 8% do espaço total do HD para si. Essa ferramenta libera esses 8% para usar como o usuário quiser. </p>
+<p style="color:#fff; text-align:left;">O sistema do PS3 por padrão separa 8% do espaço total do HD para si. Essa ferramenta libera esses 8% para usar como o usuário quiser. </p>
 <span id="mult2">
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsrzJ3NP3W0VDQo2V5GTclFrZVIkEV5bzxew&usqp=CAU" alt="HD">
 <p style="font-size:12px; color:grey; text-align:left;">Libere 8% do espaço total do seu HD</p>
@@ -150,6 +138,6 @@ p{animation:ps1 1s ease-in-out;padding:15px;font-family: 'Josefin Sans', sans-se
 <div id="hfw"><br>
 <button><a href="https://github.com/CarlosEduardo100/Arquivoss/raw/main/Desbloquear%20Espa%C3%A7o%20no%20HD.pkg">Baixar Liberador de Espaço no HD</a></button>
 </div><br><br><hr><br><br>
-<h2 style="color:aqua;">Aqui se encerra o tópico.<br> Obrigado pelo acesso!</h2><br>
+<h2 style="color:#fff; text-align:center">Aqui se encerra o tópico.<br> Obrigado pelo acesso!</h2><br>
 </div>
  <script>const btnMobile = document.getElementById('btn-mobile'); function toggleMenu(event) { if (event.type === 'touchstart') event.preventDefault(); const nav = document.getElementById('nav'); nav.classList.toggle('active'); const active = nav.classList.contains('active'); event.currentTarget.setAttribute('aria-expanded', active); if (active) { event.currentTarget.setAttribute('aria-label', 'Fechar Menu'); } else { event.currentTarget.setAttribute('aria-label', 'Abrir Menu'); } } btnMobile.addEventListener('click', toggleMenu); btnMobile.addEventListener('touchstart', toggleMenu);</script> </body> </html>
